@@ -1,0 +1,13 @@
+Running locally
+    - In index.js, Use your web component Tag to run the app
+Building web components
+  - When bundling the App, Comment index.js(Keep the Imports - import './WebComponentEntry/RegisterWebComponent' & import './index.css'; So it will be build ) 
+  in root & WebComponentCheck/check.html
+    - If I include index.js when building, Then I am getting an error (Still I can see web component) - [Error - Error: Minified React error #299]
+        - This error will be solve if I use <div id="root-react"></div> in head section before load script, ("root-react" should be same as the id in index.js file)
+    - Hence for local running, Kepp index.js and when building Webcomponent comment index.js 
+        - WebcomponentEntry/RegisterWebComponent.js is the entry point
+  - Modify your bundle folder name & file name if require in postBuild.js 
+  - run this Command - npm run build-webcomponent
+
+

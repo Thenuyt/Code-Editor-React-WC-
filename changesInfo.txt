@@ -1,0 +1,44 @@
+========================================================
+Date 16-August-2024
+Version : v1
+Changes:
+    Introducing Genetom code editor
+    
+
+========================================================
+Date 25-August-2024
+Version : v2
+Changes:
+    - Resolution fix for lower Changes
+    - Duplicate auto generated tabs name fix 
+    - Execution of config languages fix 
+
+    
+========================================================
+Date 25-August-2024
+Version : v3
+Branch : release/v3_25_Aug_2024
+Changes:
+    - Scrolling inside editor 
+    - Added Close all & Remove All 
+
+========================================================
+Date : 01-September-2024
+Version : v4
+Branch : release/v4_01_Sep_2024
+Changes:
+    - Config file Execution by shortcut fix ------ [Done]
+    - Versioning for LanguageDetails [Done]
+    - Hide/header [Done]
+    - Hide/Console & Enable Btn [Done]
+    - Console in Browser Devtools [Done]
+    - Min width for total window, Min height for Console/Editor header [Done]
+
+=========================================================
+Date : TBD
+Version : v5
+Branch : 
+Changes:
+    - Upgrade Versioning from one to another if it is older
+    - Getting Language file from Config 
+    - Editor Height + Overall Scroll
